@@ -12,7 +12,7 @@ jobs:
         run: ls
         shell: bash
 
-      - name: checkout steps: 
+      - name: checkout steps 
         uses: actions/checkout@v4
 
       - name: after checkout step
