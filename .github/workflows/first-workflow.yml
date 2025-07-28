@@ -15,6 +15,6 @@ jobs:
       - name: checkout steps: 
         uses: actions/checkout@v4
 
-      - name: after checkout 
+      - name: after checkout step
         run: ls
         shell: bash
